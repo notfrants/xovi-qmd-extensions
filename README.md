@@ -25,11 +25,8 @@ Override new page creation to use reMarkable 2 dimensions. Designed to allow bet
 Designed for use alongside preventNotebookZoomOut.qmd on the Move.
 
 ### fixPageNumberOnSlider.qmd
-3.23 only.  
+3.23 and 3.24 only.  
 Restores the z-index for the pageLabel element so it appears on top of the page slider like in previous versions.
-
-### fixQuickSettingsTempSeparator.qmd
-Removes the duplicate horizontal separator in quick settings when high temp warnings are present on Paper Pro family devices.
 
 ### hideDevModeIcon.qmd
 Hide the developer mode icon next to the battery icon.
@@ -55,6 +52,12 @@ Requires:
 
 ### unlockMethodsContent.qmd
 Bypass subscription check for using on-device Methods templates and documents.
+
+## Deprecated Extensions
+
+### fixQuickSettingsTempSeparator.qmd 
+Removes the duplicate horizontal separator in quick settings when high temp warnings are present on Paper Pro family devices.  
+Fixed in 3.24.
 
 ## Modified Extensions
 
